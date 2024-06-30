@@ -1,0 +1,82 @@
+/*
+#remitance-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+*/
+/* Remitance.css */
+
+#remitance-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  margin: 0 auto;
+  max-width: 600px;
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#remitance-container span {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  color: #495057;
+}
+
+#remitance-container div {
+  width: 100%;
+}
+
+#remitance-container p {
+  font-size: 1rem;
+  color: #6c757d;
+}
+
+#send-receive {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+#send-button,
+#receive-button {
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#send-button:hover,
+#receive-button:hover {
+  background-color: #0056b3;
+}
+
+@media (max-width: 768px) {
+  #remitance-container {
+    padding: 1rem;
+  }
+
+  #remitance-container span {
+    font-size: 1rem;
+  }
+
+  #send-button,
+  #receive-button {
+    padding: 0.6rem 1.2rem;
+    font-size: 0.9rem;
+  }
+
+  #send-receive {
+    flex-direction: column;
+    gap: 1rem;
+  }
+}
